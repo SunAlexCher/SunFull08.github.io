@@ -27,11 +27,16 @@
             </div>
         </div>
     </main>
+    <!-- Footer удален -->
 
-    <footer>
-        <p>&copy; 2023 Ваш сайт</p>
-    </footer>
-
-    <script src="../js/script.js"></script>
+    <script>
+        // Скрипт для выпадающего меню, чтобы не исчезало при уведении курсора
+        const dropdown = document.querySelector('.dropdown');
+        const dropdownContent = document.querySelector('.dropdown-                if (!dropdown.matches(':hover')) {
+                    dropdownContent.style.display = 'none';
+                }
+            }, 100); // небольшая задержка
+        });
+    </script>
 </body>
 </html>
