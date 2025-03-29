@@ -97,43 +97,5 @@ main {
 .right-column b {
     font-weight: bold; /* Жирный шрифт */
 }
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    z-index: 1;
-}
 
-/* Стили для страницы "Проблема чтения" */
-.reading-content {
-    display: flex;
-    padding: 20px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-}
-
-.left-images {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.left-images img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.right-text {
-    width: 70%;
-    padding-left: 20px;
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align: justify;
-}
+/* Удален стиль для footer */
